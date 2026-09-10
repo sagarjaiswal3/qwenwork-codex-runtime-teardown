@@ -1,0 +1,12 @@
+Static image artifact:
+  optqwen/agent-config/codex/system_prompt.md
+  SHA-256: b54847fe8f4e3df02f8a6ba37ceabeaea8a465b2c6b189858741d73f610ed25d
+  Size: 21,412 bytes
+
+Earlier live runtime artifact:
+  codex/system_prompt.md
+  SHA-256: b54847fe8f4e3df02f8a6ba37ceabeaea8a465b2c6b189858741d73f610ed25d
+
+Result: exact SHA-256 match.
+
+The complete prompt is intentionally withheld.
