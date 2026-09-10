@@ -1,0 +1,37 @@
+{
+  "captured_path": "optqwen/agent-skills/media-generate-sg/bin/cli.js",
+  "sha256": "e4279b7d3ef88fd410443ab009f8597d1fdc4d56974b62d0c5dcce56647eafe7",
+  "observed_aliases": [
+    {
+      "public_model_id": "qwenwork/open-image-2",
+      "real_model_id": "openai/gpt-image-2",
+      "actions": ["generation", "edit"]
+    },
+    {
+      "public_model_id": "qwenwork/banana-image-2",
+      "real_model_id": "google/nano-banana-2",
+      "actions": ["generation", "edit"]
+    },
+    {
+      "public_model_id": "qwenwork/banana-image-2-lite",
+      "real_model_id": "google/nano-banana-2-lite",
+      "actions": ["generation", "edit"]
+    },
+    {
+      "public_model_id": "qwenwork/seedance-2.0",
+      "real_model_id": "bytedance/seedance-2.0",
+      "actions": ["text-to-video", "image-to-video", "reference-to-video"]
+    }
+  ],
+  "selected_vendor_api_paths": [
+    "/vendors/openai/v1/gpt-image-2/generation",
+    "/vendors/openai/v1/gpt-image-2/edit",
+    "/vendors/google/v1/nano-banana-2/generation",
+    "/vendors/bytedance/v1/seedance-2.0/text-to-video/generation"
+  ],
+  "offline_provider_list_command": "node cli.js list --providers",
+  "offline_provider_list_result": {
+    "providers": ["alibaba", "klingai", "minimax", "qwenwork"]
+  },
+  "limitation": "These media-layer mappings do not establish the provider used for QwenWork chat inference or any commercial relationship with the named vendors."
+}
