@@ -1,0 +1,16 @@
+# Raw/private artifacts (not redistributed)
+6a1a139bef2670a5acd0cff41362f1495538f45aaa482f72748364b32e89e8ab  optqwen.rar
+c93d18c0261cc91572d4fea62c2bdf7788430b5f21d4fe8862c9a47a5ccdb83b  codex.zip
+
+# Key artifacts inside optqwen.rar
+b701b7d7b7683263e5612e612c468c526d78c3deb1360741e976dc40e0456919  optqwen/codex-stage/node_modules/@openai/codex/package.json
+a31ae9450a26216eb1e7c53102fd42123dd675974310b0e2ca3aa4cb622a2c15  optqwen/codex-stage/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin/codex
+4333e2ea31306ae95fd6e115d90130f926f576cc54d6243fd3c2a44a9e550770  optqwen/acp-codex/package.json
+1e8f3b73f5dffc1a38c60c06c4a70fe390cd1d4006f5bec0e8071e3c5d26f569  optqwen/agent-config/codex/config.toml
+b54847fe8f4e3df02f8a6ba37ceabeaea8a465b2c6b189858741d73f610ed25d  optqwen/agent-config/codex/system_prompt.md
+a2200cf8f83522d5857619405f2acf0fb3e2117dda5906f0ece6a35150edc5d6  optqwen/mule-sdk-go/mule-agent
+e4279b7d3ef88fd410443ab009f8597d1fdc4d56974b62d0c5dcce56647eafe7  optqwen/agent-skills/media-generate-sg/bin/cli.js
+
+# Matching live-runtime artifacts from codex.zip
+30bf3a7f11c888ba591f11a6e51c07bc958357a447d87b85d304bbdc03790d6e  codex/config.toml
+b54847fe8f4e3df02f8a6ba37ceabeaea8a465b2c6b189858741d73f610ed25d  codex/system_prompt.md
