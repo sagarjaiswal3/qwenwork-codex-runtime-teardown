@@ -1,0 +1,19 @@
+model = "__CODEX_MODEL__"
+model_provider = "qwenwork"
+model_reasoning_effort = "high"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+model_instructions_file = "/home/user/.codex/system_prompt.md"
+
+[model_providers.qwenwork]
+name = "QwenWork"
+base_url = "__QW_API_BASE_URL__/v1"
+wire_api = "responses"
+supports_websockets = false
+
+[model_providers.qwenwork.auth]
+command = "/usr/local/bin/fetch-qwenwork-token"
+args = ["--audience", "codex"]
+timeout_ms = 5000
+
+# MCP/environment sections not required for the claim are omitted.
