@@ -1,0 +1,24 @@
+Captured path: optqwen/mule-sdk-go/mule-agent
+Version output: v0.0.7-phaseC+5bc5ec12
+Size: 19,148,984 bytes
+SHA-256: a2200cf8f83522d5857619405f2acf0fb3e2117dda5906f0ece6a35150edc5d6
+
+Go build metadata:
+  go1.25.5
+  path: github.com/mulerun/mule-run/agent-sdk/cmd/mule-agent
+  module: github.com/mulerun/mule-run/agent-sdk
+  vcs.revision: 5bc5ec12eda7091dfb952b34c00517148c53c63c
+  vcs.time: 2026-09-10T12:03:21Z
+  GOARCH=amd64
+  GOOS=linux
+  CGO_ENABLED=0
+
+Selected embedded package paths:
+  github.com/mulerun/mule-run/agent-sdk/internal/acp
+  github.com/mulerun/mule-run/agent-sdk/internal/engineadapter
+  github.com/mulerun/mule-run/agent-sdk/internal/maasproxy
+  github.com/mulerun/mule-run/agent-sdk/internal/resourcebootstrap
+  github.com/mulerun/mule-run/agent-sdk/internal/filesync
+  github.com/mulerun/mule-run/agent-sdk/internal/runner
+  github.com/mulerun/mule-run/agent-sdk/internal/supervisor
+  github.com/mulerun/mule-run/agent-sdk/internal/engineadapter/pluginhooks
