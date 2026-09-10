@@ -1,0 +1,11 @@
+{
+  "captured_path": "optqwen/acp-codex/package.json",
+  "name": "@agentclientprotocol/codex-acp",
+  "version": "1.1.5",
+  "repository": "git+https://github.com/agentclientprotocol/codex-acp.git",
+  "relevant_dependencies": {
+    "@agentclientprotocol/sdk": "^1.2.1",
+    "@openai/codex": "^0.144.6"
+  },
+  "manifest_sha256": "4333e2ea31306ae95fd6e115d90130f926f576cc54d6243fd3c2a44a9e550770"
+}
