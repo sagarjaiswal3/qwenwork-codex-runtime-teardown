@@ -1,0 +1,15 @@
+{
+  "captured_path": "optqwen/codex-stage/node_modules/@openai/codex/package.json",
+  "name": "@openai/codex",
+  "version": "0.144.6",
+  "description": "Codex CLI is a coding agent from OpenAI that runs locally on your computer.",
+  "license": "Apache-2.0",
+  "repository": "git+https://github.com/openai/codex.git",
+  "native_binary": {
+    "captured_path": "optqwen/codex-stage/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin/codex",
+    "size_bytes": 298516528,
+    "version_output": "codex-cli 0.144.6",
+    "sha256": "a31ae9450a26216eb1e7c53102fd42123dd675974310b0e2ca3aa4cb622a2c15"
+  },
+  "manifest_sha256": "b701b7d7b7683263e5612e612c468c526d78c3deb1360741e976dc40e0456919"
+}
